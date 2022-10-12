@@ -1,0 +1,21 @@
+{
+  "name": "ugo-ui",
+  "version": "1.0.0",
+  "description": "ugo",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "devDependencies": {
+    "vite-plugin-dts": "^1.6.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "files": ["es", "lib"],
+  "keywords": [
+    "ugo"
+  ],
+  "author": "zhangda",
+  "license": "MIT",
+  "typings": "lib/index.d.ts"
+}
